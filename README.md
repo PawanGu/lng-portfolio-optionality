@@ -104,13 +104,3 @@ HedgeEffectiveness_var_test: 0.xx
 * Inventory & storage; PnL attribution and stress tests.
 
 ---
-
-## Interview talk‑track
-
-> “I priced volumetric flexibility with LSMC under correlated hubs and evaluated two hedges. My first Δ‑hedge targeted MTM but I was measuring cashflow variance—so I built a **level→strip** hedge that maps level exposure into futures returns. Out‑of‑sample with costs still shows strong variance and ES reduction.”
-
----
-
-## License & disclaimer
-
-MIT (suggested). Educational prototype—not investment advice.

@@ -27,7 +27,7 @@ python run_demo.py      # basic pricing + PnL histogram
 python run_demo_oos.py  # train/test hedge with VaR/ES + effectiveness
 ```
 
-Outputs go to console and (optionally) `figs/`.
+Outputs go to console and (optionally) `pnl_hist.png`.
 
 ---
 

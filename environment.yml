@@ -1,0 +1,13 @@
+name: lng-portfolio
+channels: [conda-forge, defaults]
+dependencies:
+  - python=3.10
+  - numpy
+  - pandas
+  - scipy
+  - statsmodels
+  - numba
+  - matplotlib
+  - pip
+  - pip:
+      - pytest

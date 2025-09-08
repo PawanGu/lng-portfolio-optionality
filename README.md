@@ -48,22 +48,6 @@ HedgeEffectiveness_var_test: 0.xx
 
 ---
 
-## Repository layout
-
-```
-.
-├─ run_demo.py              # price swing, simple plot
-├─ run_demo_oos.py          # out‑of‑sample hedge validation
-├─ simulators.py            # correlated GBM for HH/TTF/JKM
-├─ swing.py                 # SwingSpec + feasibility (daily & cumulative bounds)
-├─ lsmc.py                  # LSMC pricer (+ optional analytic deltas)
-├─ level_strip_hedge.py     # cash‑flow hedge via level→futures strip
-├─ hedging/
-│  ├─ risk_metrics.py       # mean/stdev/VaR/ES helpers
-│  └─ regression_hedge.py   # (optional) ΔS regression hedge baseline
-└─ src/viz/plots.py         # PnL histogram helper
-```
-
 ---
 
 ## Method in 30 seconds
